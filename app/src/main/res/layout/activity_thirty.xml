@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172a54"
+    tools:context=".ThirtyActivity">
+
+    <ImageButton
+        android:id="@+id/ChooseImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_outline_add_photo_alternate_24"
+        android:text="Choose" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="18dp">
+
+        <ImageView
+            android:id="@+id/ivAngel1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/angle1" />
+
+        <TextView
+            android:id="@+id/tvAngel1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/ivAngel1"
+            android:gravity="center"
+            android:text="45.4545454544545"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivAngel2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivAngel1"
+            android:layout_margin="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/angle2" />
+
+        <TextView
+            android:id="@+id/tvAngel2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvAngel1"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/ivAngel1"
+            android:gravity="center"
+            android:text="45.4545454544545"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivAngel3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivAngel2"
+            android:layout_margin="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/angle3" />
+
+        <TextView
+            android:id="@+id/tvAngel3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvAngel2"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/ivAngel1"
+            android:gravity="center"
+            android:text="45.4545454544545"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivAngel4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivAngel3"
+            android:layout_margin="20dp"
+
+            android:contentDescription="TODO"
+            android:src="@drawable/angle4" />
+
+        <TextView
+            android:id="@+id/tvAngel4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvAngel3"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/ivAngel1"
+            android:gravity="center"
+            android:text="45.4545454544545"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:textAllCaps="false"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/bt_uidesign"
+        android:padding="12dp"
+        android:text="Save Result"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>
